@@ -31,7 +31,12 @@ class Transaction{
         }
     }
 
+    public function getTransactions(){
+        $this->db->query('SELECT * FROM transactions ORDER BY created_at DESC');
+        $result = $this->db->resultset();
 
+        return $result;
+    }
 }
 
 ?>
