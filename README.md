@@ -46,4 +46,4 @@ Web Application for accepting payments with Stripe and storing details on Databa
 <hr>
 
 ![customers](./images/trans.JPG?raw=true "customer")
-
+ 
